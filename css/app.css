@@ -1,0 +1,88 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Lucida Grande", "Segoe UI", Ubuntu, Cantarell, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#side-nav {
+  background-color: #000;
+  padding-top: 18px;
+  width: 120px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+#main {
+  padding-left: 36px;
+  padding-top: 18px;
+  min-width: 500px;
+  position: absolute;
+  left: 120px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+#side-nav ul {
+  list-style: none;
+  padding: 10px 5px;
+  margin: 0;
+}
+#side-nav li {
+  padding: 10px;
+}
+
+#side-nav a {
+  font-size: 1rem;
+  color: #555;
+  text-decoration: none;
+}
+#side-nav a:hover {
+  color: #52affb;
+}
+
+#wrapper {
+  min-width: 800px;
+  height: 100%;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.name{
+    display: inline-block;
+    line-height: 1.4;
+    font-size: 16px;
+    position: relative;
+    top: -18px;
+    left: 10px;
+}
